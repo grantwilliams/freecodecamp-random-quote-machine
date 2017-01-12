@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+body, html {
+    background-color: #2980b9;
+    font-family: Abel, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 100%;
+    font-size: 100%;
+    color: #333;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+.container {
+    min-height: 100%;
+}
+
+.title {
+    margin-top: 10%;
+}
+
+.quote-box {
+    background-color: #ffffff;
+    display: table;
+    max-width: 500px;
+    margin: 5% auto auto;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 10px 10px 5px #404040;
+}
+
+.quote-content {
+    clear: both;
+    text-align: center;
+}
+
+.quote-author {
+    clear: both;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.author-name {
+    font-size: 1.25em;
+}
+
+#twitter-button {
+    color: #2980b9;
+}
+
+.footer-note {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.footer-note a:link, a:visited {
+    color: #333;
+    text-decoration-line: underline;
+}
+
+.footer-note a:hover {
+    color: silver;
+}
+
+.btn-primary{
+    background-color: #2980b9;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    .author-name {
+        font-size: 1em;
+    }
+}
