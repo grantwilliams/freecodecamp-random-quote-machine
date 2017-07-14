@@ -7,9 +7,8 @@ function getQuote () {
         },
         url: "https://andruxnet-random-famous-quotes.p.mashape.com/?cat=",
         success: function (response) {
-            var resp = JSON.parse(response);
-            var quote = resp.quote;
-            var author = resp.author;
+            var quote = response.quote;
+            var author = response.author;
 
             $('.quote-content').html('<p id="quote-text"><i class="fa fa-quote-left"></i> ' + quote + ' <i class="fa fa-quote-right"></i></p>');
             $('.quote-author').html('<span class="author-name" id="author">- <em>' + author + '</em></span>')
